@@ -18,42 +18,23 @@
         <base href="/">
         <title>Mobi</title>
         <link rel="icon" type="image/x-icon" href="${require('./assets/images/favicon.ico')}">
-        <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
         <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     </head>
     <body layout="row" layout-fill>
         <div layout="column" layout-fill>
-            <md-toolbar class="header-toolbar" 
-                layout="row" layout-align="center center" md-whiteframe="3">
+            <md-toolbar class="header-toolbar"
+                layout="row" layout-align="center center">
                 <div class="md-toolbar-tools">
-                    <img class="logo" src="./assets/images/logo.png" alt="logo" width="30"></img>
                     <h3 flex>
-                        <a href="/">Mobi</a>
+                        <a href="/">
+                        <img class="logo" src="./assets/images/logo.svg"/></a>
                     </h3>
-                    <md-button class="md-icon-button"
-                        href="https://m.facebook.com/profile.php?id=369549266721040"
-                        target="_blank"
-                        aria-label="Facebook">
-                        <i class="fab fa-facebook-f fa-lg"></i>
-                    </md-button>
-                    <md-button class="md-icon-button"
-                        href="https://twitter.com/Mobirideshare?s=07"
-                        target="_blank"
-                        aria-label="Twitter">
-                        <i class="fab fa-twitter fa-lg"></i>
-                    </md-button>
-                    <md-button class="md-icon-button" 
-                        href="https://www.instagram.com/mobiridesharing/"
-                        target="_blank"
-                        aria-label="Instagram">
-                        <i class="fab fa-instagram fa-lg"></i>
-                    </md-button>
-                    <md-button class="md-icon-button" 
-                        href="https://au.linkedin.com/company/mobi-ridesharing"
-                        target="_blank"
-                        aria-label="Linked In">
-                        <i class="fab fa-linkedin-in fa-lg"></i>
-                    </md-button>
+                    <div class="nav-container">
+                        <md-button class="md-raised md-primary md-glow">
+                            White Paper
+                        </md-button>
+                    </div>
                 </div>
             </md-toolbar>
             <md-content layout="column" flex>
